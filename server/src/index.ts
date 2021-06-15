@@ -23,7 +23,7 @@ const main = async () => {
     type: "postgres",
     database: "lireddit2",
     username: "postgres",
-    password: "danielp2001",
+    password: "haslo",
     logging: true,
     synchronize: true,
     migrations: [path.join(__dirname, "./migrations/*")],
